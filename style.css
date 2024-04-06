@@ -1,0 +1,96 @@
+body{
+    font-family: 'Arial', sans-serif;
+    filter: saturate(200%);
+    background-color: black; 
+    color: white;
+    margin:10;
+    
+}
+header{
+  border-radius: 10px;
+  margin-bottom: 5px;
+  
+}
+img.logo{
+  animation: rotate 5s linear infinite;
+  filter: drop-shadow(3px 5px 8px blue);
+  height: 50px;
+  width: 50px;
+}
+
+ul {
+    border-radius: 10px 10px 10px 10px;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+li {
+    
+    float: left;
+}
+li a {
+  margin-top: 4px;
+   text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-left: 3px;
+    font-size: 15px;
+    border-radius: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    color: white;
+    filter: drop-shadow(3px 5px 8px blue);
+}
+
+.active {
+    color: black;
+    background-color: green;
+}
+.active:hover{
+    filter: drop-shadow(0px 2px 0px blue);
+}
+
+
+.act{
+  
+  margin-bottom: 8px;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid crimson;
+  text-decoration: none;
+  font-size: 20px;
+  width: auto;
+  text-transform: uppercase;
+  
+}
+
+.act:hover{
+  filter: drop-shadow(3px 5px 8px blue);
+  text-shadow: 3px 5px 8px green;
+  
+}
+
+.prelim{
+  
+  border-radius: 12px;
+  width: ;
+  margin-bottom: 10px;
+  background-color: black;
+  border: 2px solid white;
+}
