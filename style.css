@@ -19,6 +19,7 @@ img.logo{
 }
 
 ul {
+    z-index: 1;
     border-radius: 10px 10px 10px 10px;
     list-style-type: none;
     margin: 0;
