@@ -7,12 +7,11 @@ body{
     
 }
 header{
-  border-radius: 10px;
-  margin-bottom: 5px;
-  
+  background-color: #eaacac0b; 
+  margin: 0;
 }
 img.logo{
-  animation: rotate 5s linear infinite;
+  animation: rotate 10s linear infinite;
   filter: drop-shadow(3px 5px 8px blue);
   height: 50px;
   width: 50px;
