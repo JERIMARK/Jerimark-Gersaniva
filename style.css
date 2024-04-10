@@ -98,3 +98,35 @@ li a:hover {
 filter: drop-shadow(5px 5px 10px crimson);
   
 }
+footer{
+  
+  border-top: 2px solid crimson;
+  padding: 1px;
+  background-color:#46ff420e ;
+  margin: 1rem;
+}
+footer img{
+  margin: 10px;
+  height:30px;
+}
+ footer img.facebook:hover{
+   border: 1px solid white;
+   border-radius: 12px;
+   filter: drop-shadow( 3px 5px 8px blue);
+   opacity: 85%;
+   height:35px;
+ }
+ footer img.instagram:hover{
+   border: 1px solid white;
+   border-radius: 12px;
+   filter: drop-shadow( 3px 5px 8px pink);
+   opacity: 85%;
+   height:35px;
+ }
+footer img.tiktok:hover{
+   border: 1px solid white;
+   border-radius: 12px;
+   filter: drop-shadow( 3px 5px 8px red);
+   opacity: 85%;
+   height:35px;
+ }
