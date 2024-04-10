@@ -7,8 +7,9 @@ body{
     
 }
 header{
-  background-color: #eaacac0b; 
+  background-color: #eaacac0b;
   margin: 0;
+  
 }
 img.logo{
   animation: rotate 10s linear infinite;
@@ -88,10 +89,12 @@ li a:hover {
 }
 
 .prelim{
-  
   border-radius: 12px;
-  width: ;
   margin-bottom: 10px;
   background-color: black;
   border: 2px solid white;
+}
+.prelim:hover{
+filter: drop-shadow(5px 5px 10px crimson);
+  
 }
