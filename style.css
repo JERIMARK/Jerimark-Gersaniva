@@ -99,11 +99,11 @@ filter: drop-shadow(5px 5px 10px crimson);
   
 }
 footer{
-  
+  border-radius: 12px 12px 0 0;
   border-top: 2px solid crimson;
   padding: 1px;
-  background-color:#bfbfbf ;
-  margin: 1rem;
+  background-color:#393838;
+  margin: 1rem 0 0 0;
 }
 footer img{
   margin: 10px;
